@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+
+
+
+</div>
+
+<script>
+    let day ;
+switch (new Date().getDay()){
+    case 0:
+        day = "یک شنبه";
+        break
+
+    case 1 :
+        day = "دوشنبه"
+        break
+
+    case 2 :
+        day ="سه شنبه"
+        break
+
+    case 3 :
+        day = "چهارشنبه"
+        break
+    case 4:
+        day = "پنج شنبه"
+        break
+
+    case 5:
+        day = "جمعه"
+        break
+
+        case  6 :
+            day = "شنبه"
+        break
+
+
+    default:
+
+
+
+}
+
+
+
+document.getElementById('demo').innerHTML =  day +"</br>"+ new  Date()
+
+
+
+
+</script>
+
+
+</body>
+</html>
